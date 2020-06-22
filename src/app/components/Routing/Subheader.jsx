@@ -9,7 +9,7 @@ export default class Subheader extends React.Component {
 				<table>
 					<tbody>
 						<tr>
-							<td><Link to={`/${headerFor}/${headerFor}1`} className="btn btn-primary">{`${headerFor} 1`}</Link></td>
+							<td><Link to={`/${headerFor}/${headerFor}1`} className="btn btn-primary">{`First ${headerFor} App`}</Link></td>
 							<td> <Link to={`/${headerFor}/${headerFor}2`} className="btn btn-primary">{`${headerFor} 2`}</Link></td>
 						</tr>
 					</tbody>
