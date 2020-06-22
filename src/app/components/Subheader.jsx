@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export default class Subheader extends React.Component {
 	render() {
 		const { headerFor } = this.props;
-		console.log(headerFor);
 		return (
 			<div className="container" align="center">
 				<table>
