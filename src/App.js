@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import First from './app/components/First';
+import First from './app/components/Routing/First';
 
 function App() {
 	return (
