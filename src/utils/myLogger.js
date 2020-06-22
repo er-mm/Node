@@ -1,4 +1,4 @@
-export const log = data => {
+export const log = (key='', data) => {
 	console.log("*--*--*--*--*--*--*--*--*");
-	console.log(data);
+	console.log(key, data);
 };
